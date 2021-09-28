@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.tweet-btn {
+    background-color: rgb(20, 164, 212);
+    color: white;
+    padding: 1.3%;
+    border-radius: 10em;
+    font-weight: 600;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border: none;
+}
+
+.tweet-disabled {
+    background-color: rgb(110, 191, 218);
+    color: white;
+    padding: 1.3%;
+    border-radius: 10em;
+    font-weight: 600;
+    font-size: 1.1rem;
+    border: none;
+}
+
+.tweet-disabled:hover {
+    background-color: rgb(110, 191, 218);
+    cursor: default;
+}
+
+.tweet-btn:hover {
+    background-color: rgb(17, 138, 179);
+    border-radius: 2em;
+    transition: 0.1s ease-in;
+}
+
+.tweets-section {
+    width: 100%;
+}
+
+.tweets {
+    max-width: 100%;
+    padding: 2%;
+    border-bottom: 1px solid lightgray;
+}
+
+#middle-bar {
+    text-align: left;
+    width: 37%;
+    border-right: 1px solid lightgray;
+}
+
+.btm-border-gray {
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+}
+
+textarea {
+    outline: none;
+    border: none;
+    margin-left: 4%;
+    font-size: 1.2rem;
+    height: 7vh;
+    width: 25vw;
+    resize: none;
+}
+
+#header {
+    position: sticky;
+}
+
+.tweet-flex {
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    max-width: 100%;
+}
+
+.main-tweet-content {
+    width: 80%;
+}
+
+.tweet-analytics {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.tweet-analytic-numbers {
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+    cursor: pointer;
+}
