@@ -12,14 +12,14 @@ const Home = (props) => {
     const { logout, setLoggedIn } = props;
     const history = useHistory();
 
-    // useEffect(() => {
-    //     axios.get('https://newsapi.org/v2/top-headlines?country=us&page=1&pageSize=5&apiKey=00eb7c1c793f4f3e952d1d37708df120')
-    //     .then(res => {
-    //         console.log(res)
-    //         setNewsArticles(res.data.articles)
-    //     })
-    //     .catch(err => console.log(err));
-    // }, []);
+    useEffect(() => {
+        axios.get('https://newsapi.org/v2/top-headlines?country=us&page=1&pageSize=5&apiKey=00eb7c1c793f4f3e952d1d37708df120')
+        .then(res => {
+            console.log(res)
+            setNewsArticles(res.data.articles)
+        })
+        .catch(err => console.log(err));
+    }, []);
 
     useEffect(() => {
         const userId = localStorage.getItem('token')
