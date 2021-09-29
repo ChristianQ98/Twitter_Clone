@@ -6,6 +6,22 @@ Full-Stack Twitter Clone app built using the MERN stack
 
 https://user-images.githubusercontent.com/78188432/135352183-c1d11c4a-28e8-45b6-ba9e-b0c1e0628a9b.mp4
 
+## Login Accounts To Use
+
+Some accounts that I created in order to provide easy login without having to create an account are:
+1. John Smith
+  - Email: jsmith@gmail.com
+  - Password: password1234
+2. Jane Doe
+  - Email: jdoe@gmail.com
+  - Password: password1234
+3. Elon Musk
+  - Email: emusk@gmail.com
+  - Password: password1234
+4. Jordan Walke
+  - Email: jwalke@gmail.com
+  - Password: password1234
+
 ## How To Use
 
 To clone and run this application, you'll need Git and Node.js (which comes with npm) installed on your computer. 
