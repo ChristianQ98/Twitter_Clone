@@ -2,7 +2,7 @@
 
 Full-Stack Twitter Clone app built using the MERN stack
 
-## Live Demo
+## Demo
 
 https://user-images.githubusercontent.com/78188432/135352183-c1d11c4a-28e8-45b6-ba9e-b0c1e0628a9b.mp4
 
