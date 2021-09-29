@@ -14,53 +14,54 @@ From your command line:
 Clone this repository
 
 ```bash
-git clone https://github.com/ChristianQ98/Twitter_Clone.git
+$ git clone https://github.com/ChristianQ98/Twitter_Clone.git
+```
 
 From the Twitter Clone folder, change directories into the server directory
 
 ```bash
-cd server
+$ cd server
 ```
 
 Go to the server directory and install Express, Mongoose, JSON Web Token, Bcrypt, DotEnv, CookieParser, and CORS
 
 ```bash
-npm i express mongoose jsonwebtoken bcrypt dotenv cookieparser cors
+$ npm i express mongoose jsonwebtoken bcrypt dotenv cookieparser cors
 ```
 
 Install dependencies
 
 ```bash
-npm i
+$ npm i
 ```
 
 To start the server, run nodemon on the server.js file
 
 ```bash
-nodemon server.js
+$ nodemon server.js
 ```
 
 Change directories into the client directory
 
 ```bash
-cd ..
-cd client
+$ cd ..
+$ cd client
 ```
 
 Install react-router-dom, axios, and moment
 
 ```bash
-npm i axios react-router-dom moment
+$ npm i axios react-router-dom moment
 ```
 
 Install dependencies
 
 ```bash
-npm i
+$ npm i
 ```
 
 Run the React app
 
 ```bash
-npm run start
+$ npm run start
 ```
