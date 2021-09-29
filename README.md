@@ -1,6 +1,7 @@
 # Twitter_Clone
 
 Full-Stack Twitter Clone app built using the MERN stack
+* This project is still a work-in-progress. Some other features that are currently being worked on include messaging other users (using Socket.io) and being able to like, comment, and retweet other users' posts, as well as being able to follow their account.
 
 ## Demo
 
