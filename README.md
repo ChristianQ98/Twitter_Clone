@@ -65,3 +65,5 @@ Run the React app
 ```bash
 $ npm run start
 ```
+
+If the application does not open in the browser on its own within a minute, go to http://localhost:3000/. Enjoy!
