@@ -23,10 +23,10 @@ From the Twitter Clone folder, change directories into the server directory
 $ cd server
 ```
 
-Go to the server directory and install Express, Mongoose, JSON Web Token, Bcrypt, DotEnv, CookieParser, and CORS
+Go to the server directory and install Nodemon, Express, MongoDB, Mongoose, JSON Web Token, Bcrypt, DotEnv, CookieParser, and CORS
 
 ```bash
-$ npm i express mongoose jsonwebtoken bcrypt dotenv cookieparser cors
+$ npm i nodemon express mongodb mongoose jsonwebtoken bcrypt dotenv cookieparser cors
 ```
 
 Install dependencies
